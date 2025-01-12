@@ -1,11 +1,11 @@
-function App(){
+function App() {
 
   //JSX -> 
-return (
+  return (
     <div>
-        <h1>Holaa Mundo </h1>
+      <p>Holaa Mundo </p>
     </div>
-);
+  );
 }
 
-export default App;
+export default App; 
