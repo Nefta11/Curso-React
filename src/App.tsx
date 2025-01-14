@@ -1,7 +1,11 @@
-import {CardBody} from "./components/Card"
+import Card, { CardBody } from "./components/Card"
 
 function App() {
-  return <CardBody title={"Nefta"} text={"Holaa otra vez"} />;
+  return (
+    <Card>
+      <CardBody title="Hello" text="World" />
+    </Card>
+  );
 }
 
 export default App;
