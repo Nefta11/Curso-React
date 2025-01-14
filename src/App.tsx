@@ -1,12 +1,7 @@
-function App() {
+import Titulo from './Titulo'
 
-  //JSX -> 
-  const nombre = 'Neftali';
-  return (
-    <>
-      {nombre ? <h1>Hola {nombre}</h1> : <h1>Hola Extraño</h1>}
-    </>
-  );
+function App() {
+  return <Titulo />
 }
 
-export default App; 
+export default App
