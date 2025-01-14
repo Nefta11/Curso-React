@@ -1,12 +1,15 @@
+interface Props {
+    body: string;
+}
 
-function Card() {
-
+function Card(props: Props) {
+    const { body } = props;
     return (
         <div className="card" style={{
             width: '350px'
         }}>
             < div className="card-body" >
-                <CardBody />
+                {body}
             </div>
         </ div>
     );
