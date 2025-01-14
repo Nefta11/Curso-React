@@ -1,7 +1,7 @@
-import Card from "./components/Card"
+import {CardBody} from "./components/Card"
 
 function App() {
-  return <Card body={"Hola Nefta"} />;
+  return <CardBody title={"Nefta"} text={"Holaa otra vez"} />;
 }
 
-export default App
+export default App;
