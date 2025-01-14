@@ -5,8 +5,8 @@ type Props = {
 function List({ data }: Props) {
     return (
         <ul className="list-group">
-            {data.map((item) => (
-                <li className="list-group-item">{item}</li>
+            {data.map((item, index) => (
+                <li key={index} className="list-group-item">{item}</li>
             ))}
         </ul>)
 }
